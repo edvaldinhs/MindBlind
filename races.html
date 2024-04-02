@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/indexStyle.css">
+    <link rel="stylesheet" href="css/mobileStyle.css">
+    <link rel="stylesheet" href="css/racesStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <title>MindBlind</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <h1><a href="index.html">MINDBLIND</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="races.html">Races</a></li>
+                <li><a href="map.html">Mapa</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bode2">
+        <div class="container" id="races">
+            <h1>As <span class="text-lightBlue">raças</span></h1>
+            <p>Uma lista das raças jogáveis.</p>
+        </div>
+        <div class="horizontal-carousel">
+            <ul>
+                <li>
+                    <div class="item" style="background: #fff;">
+                        <div class="i-status in-development">development</div>
+                        <div class="i-description">
+                            <div style="display: flex;">
+                                <h4><a href="#felis">Felis</a></h4>
+                            </div>
+                            <p>Um gato</p>
+                            <div class="tags">
+                                <span class="tag" style="background-color: #EA2D2E;">Nove vidas</span>
+                            </div>
+                        </div>
+                        <img src="img/felis.jpg" alt="gato" draggable="false" class="prevent-select">
+                    </div>
+                </li>
+                <li>
+                    <div class="item" style="background: #1A1A1A;">
+                        <div class="i-status on-hold">on hold</div>
+                        <div class="i-description">
+                            <div style="display: flex;">
+                                <h4><a href="#mouseFolk">Mousefolk</a></h4>
+                            </div>
+                            <p>Um Rato</p>
+                            <div class="tags">
+                                <span class="tag" style="background-color: #77BC1F">Recuo acelerado</span>
+                            </div>
+                        </div>
+                        <img src="img/Mousefolk.webp" alt="rato" draggable="false" class="prevent-select">
+                    </div>
+                </li>
+                <li>
+                    <div class="item" style="background: #fff;">
+                        <div class="i-status is-active">active</div>
+                        <div class="i-description">
+                            <div style="display: flex;">
+                                <h4><a href="#sapo">Sapo</a></h4>
+                            </div>
+                            <p>Um sapo</p>
+                            <div class="tags">
+                                <span class="tag" style="background-color: #00618A;">dupla respiração</span>
+                            </div>
+                        </div>
+                        <img src="img/frog.jpg" alt="sapo" draggable="false" class="prevent-select">
+                    </div>
+                </li>
+                <li>
+                    <div class="item" style="background: #fff;">
+                        <div class="i-status is-active">active</div>
+                        <div class="i-description">
+                            <div style="display: flex;">
+                                <h4><a href="#mythlings">Mythlings</a></h4>
+                            </div>
+                            <p>Pererecas, rãs e outros bichos</p>
+                            <div class="tags">
+                                <span class="tag" style="background-color: #993399;">veneno</span>
+                            </div>
+                        </div>
+                        <img src="img/mythlings.png" alt="mythlings" draggable="false" class="prevent-select">
+                    </div>
+                </li>
+                <li>
+                    <div class="item" style="background: #fff;">
+                        <div class="i-status is-active">active</div>
+                        <div class="i-description">
+                            <div style="display: flex;">
+                                <h4><a href="#ferret">Furão / Doninha</a></h4>
+                            </div>
+                            <p>Não encontrei um background melhor para o furão</p>
+                            <div class="tags">
+                                <span class="tag" style="background-color: #726b3b">escalar</span>
+                            </div>
+                        </div>
+                        <img src="img/ferret.jpg" alt="furão/doninha" draggable="false" class="prevent-select">
+                    </div>
+                </li>
+                <li>
+                    <div class="item" style="background: #fff;">
+                        <div class="i-status is-active">active</div>
+                        <div class="i-description">
+                            <div style="display: flex;">
+                                <h4><a href="#haregon">Haregon</a></h4>
+                            </div>
+                            <p>Um coelho</p>
+                            <div class="tags">
+                                <span class="tag" style="background-color: #7DDFFF;">salto</span>
+                            </div>
+                        </div>
+                        <img src="img/rabbit.webp" alt="coelho" draggable="false" class="prevent-select">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="race" id="felis">
+            <h1><span>🐈</span> Felis</h1>
+            <div class="raceDescription">
+                <div class="leftSide">
+                    <div class="imgContainer">
+                        <img src="img/felisMage.png" alt="felis">
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <h2>Felis <span class="text-lightBlue">Traits</span></h2>
+                    <p>Seu personagem felis vai compartilhar alguns traços comuns e atributos com outros Felis.</p>
+                    <br>
+                    <p> <strong><span class="text-purple">Aumento no valor de Habilidade.</span></strong> Seu valor de
+                        Carisma aumenta em 2.</p>
+                    <p> <strong><span class="text-purple">Tamanho.</span></strong> Felis estão entre 2 e 3 pés (0,6 e
+                        0,9 metros) de altura e pesa 13kg</p>
+                    <p> <strong><span class="text-purple">Deslocamento.</span></strong> Seu deslocamento é de 25 ft.
+                    </p>
+                    <p> <strong><span class="text-purple">Garras.</span></strong> Devido às suas garras, você tem um
+                        deslocamento de escalada de 15 ft. Você também consegue usar suas garras como uma arma. Quando
+                        se acerta um ataque você dá 1d4 + atributo de Força como dano cortante e ataque desarmado.</p>
+                    <p> <strong><span class="text-purple">Linhagem Felina.</span></strong> Escolha uma das linhagens.
+                    </p>
+                    <p> <strong><span class="text-purple">Visão no Escuro.</span></strong> Sendo um Felis, você consegue
+                        ver no escuro em até 60 ft como se fosse uma luz clara, e após isso, como um breu. </p>
+                    <p> <strong><span class="text-purple">Deslocamento.</span></strong> Seu deslocamento é de 25 ft.
+                    </p>
+                </div>
+            </div>
+            <div class="spaceDiv">
+            </div>
+            <div class="raceDescription">
+                <div class="rightSide">
+                    <p> <strong><span class="text-purple">Purrsuasão.</span></strong> Felis usam sua natureza pequena e
+                        fofa
+                        para sua vantagem o máximo que podem. Uma vez por dia, tem vantágem em um teste de Persuazão
+                        numa
+                        criatura amigável. </p>
+                    <p> <strong><span class="text-purple">Natureza Curiosa.</span></strong> Sendo um Felis inquisitivo
+                        você tem proficiência nas jogadas de Investigação.</p>
+                    <br><br>
+                    <h2><span class="text-lightBlue">Linhagem</span> Felina</h2>
+                    <br>
+                    <p> <strong><span class="text-purple">Linhagem Comum.</span></strong> O gato malhado é o mais comum
+                        de
+                        todas as linhagens. De forma que eles sabem mais sobre esferas sociais comuns. Você aumenta seu
+                        atributo de Sabedoria em 1.</p>
+                    <br>
+                    <p> <strong><span class="text-purple">Nobre.</span></strong> Com o pelo puro como a neve mais
+                        branca, esses Felis nasceram sem cor e são normalmente vistos como os Felis mais nobres. Quando
+                        eles envelhecem, eles recebem a liderança dos seus clans. Uma vez por descanso longo, você pode
+                        instigar aos aliados num senso de vigor. Aqueles em um quadrado em volta de você recebem Pontos
+                        de Vida temporários iguais ao seu modificador de Carisma por 8 horas.</p>
+                    <br>
+                    <p> <strong><span class="text-purple">Natureza Ardente.</span></strong> De temperamento quente e
+                        rápido para atacar com garras, esses Felis laranjas ficam furiosos no campo de batalha. Aumente
+                        seu valor de Força em 1.</p>
+                    <br>
+                    <p> <strong><span class="text-purple">Sensor de Caça.</span></strong> Mestres da visão, aqueles de
+                        pelagem marrom foram destinados à caça</p>
+                    <br>
+                    <p> <strong><span class="text-purple">Boa Fortuna.</span></strong> Os gatos de chita são os mais
+                        raros de toas as linhagens de Felis. As lendas dizem que toda a sorte do Felis preto foi para os
+                        gatos de chita. Uma vez por dia quando rolar um d20, você pode escolher rolar novamente. Você
+                        tem que aceitar o resultado do re-rolamento.</p>
+                    <p> <strong><span class="text-purple">Adepto Arcano.</span></strong> Olhos estrelados e pele de um
+                        céu azul noturno, é dito que esses Felis são conectados com o Mar Astral. Aumenta seu atributo
+                        de Inteligência em 1.</p>
+                    <p> <strong><span class="text-purple">Stalker Noturno.</span></strong> Cinza é a cor perfeita para
+                        se camuflar nas suas redondezas. Felis com a pele cinzenta são capazes de se esconder muito
+                        facilmente. Você ganhar proficiência na habilidade de Furtividade.</p>
+                    <p> <strong><span class="text-purple">Azarento.</span></strong> Tipicamente, aqueles nascidos nessa
+                        linhagem, são da mais pura pelagem preta e carregam um azar natural onde vão. Uma vez por
+                        descanso longo, você pode lançar sua má sorte em um inimigo como uma reação, forçando eles à ter
+                        desvantagens em testes.</p>
+                    <p> <strong><span class="text-purple">Mutação.</span></strong> Nascido com uma mutação genética,
+                        esses Felis não tem pelos ou possuem pelos tão pequenos que aparentam ser carecas. Para se
+                        aquecer, esses Felis estão em constante movimento. Você ganha proficiência em Acrobacias.</p>
+                </div>
+                <div class="leftSide" style="text-align: center;">
+                    <div class="imgContainer" style="margin-top: 50vh;">
+                        <img src="img/felisWarrior.png" alt="felis">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="race2" id="mouseFolk">
+            <h1><span>🐭</span> MouseFolk</h1>
+            <div class="raceDescription">
+                <div class="leftSide">
+                    <div class="imgContainer" style="text-align: center;">
+                        <img src="img/png.png" style="height: 100%;" alt="rato">
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <h2>MouseFolk <span class="text-lightBlue">Traits</span></h2>
+                    <p>Seu personagem MouseFolk vai compartilhar alguns traços comuns e atributos com outros MouseFolks.
+                    </p>
+                    <br>
+                    <p> <strong><span class="text-purple">Aumento no valor de Habilidade.</span></strong> Seu valor de
+                        Destreza aumenta em 2.</p>
+                    <p> <strong><span class="text-purple">Tamanho.</span></strong> Felis estão entre 2 e 2,5 pés (0,6 e
+                        0,75 metros) de altura e pesa 11kg</p>
+                    <p> <strong><span class="text-purple">Deslocamento.</span></strong> Seu deslocamento é de 25 ft.
+                    </p>
+                    <p> <strong><span class="text-purple">Sentidos Afiados.</span></strong> Você tem proficiência em
+                        Percepção</p>
+                    <p> <strong><span class="text-purple">Treinamento em armas dos ratos.</span></strong> Você tem
+                        proficiência com a rapieira, espada curta, arco curto, e handaxe (não sei se é machado de mão).
+                    </p>
+                    <p> <strong><span class="text-purple">Linguagens.</span></strong> Você consegue falar, ler e
+                        escrever Comum e Fala Squeak. Mousefolks dão valor em anotar as suas lendas e histórias, além de
+                        encorajar todos a guardarem anotações e gravações de seus atos.</p>
+                    <p> <strong><span class="text-purple">Subraça.</span></strong> Há dois tipos Mousefolks, Pata Leve e
+                        Pradários, que são mais próximos de serem famílias próximas do que subraças reais. Escolha uma
+                        delas.
+                    </p>
+                </div>
+            </div>
+            <div class="spaceDiv">
+            </div>
+            <div class="raceDescription">
+                <div class="rightSide">
+                    <br>
+                    <h2>Sub<span class="text-lightBlue">raças</span></h2>
+                    <br>
+                    <h3>
+                        Patas Leves
+                    </h3>
+                    <hr>
+                    <br>
+                    <p> Sendo um Mousefolk das Patas Leves, você evita os perigos das selvas sem dono pela segurança da
+                        civilização. Sua natureza estudiosa te dá uma brecha dos estudos arcanos e um toque para
+                        habilidades de troca e criação. A marca dos Patas Leves é um selo da melhor qualidade.</p>
+                    <br>
+                    <p> <strong><span class="text-purple">Incremento nos Valores de Habilidades.</span></strong> Seu
+                        atributo de Inteligência aumenta em 1.</p>
+                    <br>
+                    <p> <strong><span class="text-purple">Artista.</span></strong> Você ganha proficiência em um tipo
+                        das ferramentas de artesão ou em um instrumento musical</p>
+                    <br>
+                    <p> <strong><span class="text-purple">Contorção.</span></strong> Você pode se mover através de
+                        espaços pequenos como se você tivesse tamanho pequeno.</p>
+                    <br>
+                    <br>
+                    <h3>
+                        Pradários
+                    </h3>
+                    <hr>
+                    <br>
+                    <p> Sendo um Mousefolk dos Prados, você faz o seu
+                        vivendo na selva. Você tem sentidos aguçados, profundos
+                        intuição e uma conexão com a natureza que poucos
+                        outras raças podem se orgulhar. O estande Pradário
+                        firmemente à beira da civilização, sabendo
+                        que seus olhos são o primeiro alarme e seu corpo
+                        e a lâmina são o último baluarte de incontáveis
+                        outros. Eles têm um senso de dever inabalável
+                        e uma vida inteira de experiência que os mantém
+                        afiado contra os perigos do mundo.</p>
+                    <br>
+                    <p> <strong><span class="text-purple">Incremento nos Valores de Habilidades.</span></strong> Seu
+                        atributo de Sabedoria aumenta em 1.</p>
+                    <p> <strong><span class="text-purple">Bravo.</span></strong> Você tem vantagem em não se aterrizar
+                    </p>
+                    <p> <strong><span class="text-purple">Falar com Pequenas Bestas.</span></strong> Através de sons e
+                        gestos, você pode se comunicar de forma simples com bestas pequenas ou menores.</p>
+                </div>
+                <div class="leftSide" style="text-align: center;">
+                    <div class="imgContainer" style="margin-top: 50vh;">
+                        <img src="img/mouse.png" alt="mouse">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="race" id="sapo">
+            <h1><span>🐸</span> Sapo</h1>
+            <div class="raceDescription">
+                <div class="leftSide">
+                    <div class="imgContainer">
+                        <img src="img/frog2.png" style="height: 70%;" alt="sapo">
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <h2>Sapo's <span class="text-lightBlue">Traits</span></h2>
+                    <p>Seu personagem sapo vai compartilhar alguns traços comuns e atributos com outros sapos.
+                    </p>
+                    <br>
+                    <p> <strong><span class="text-purple">Aumento no valor de Habilidade.</span></strong> Seu valor de
+                        Destreza aumenta em 2 e sua Constituição em 1.</p>
+                    <p> <strong><span class="text-purple">Tamanho.</span></strong> Sapos estão entre 2,5 e 3,5 pés de
+                        altura e pesa 13kg</p>
+                    <p> <strong><span class="text-purple">Deslocamento.</span></strong> Seu deslocamento é de 25 ft.
+                        Seus dedos pegajosos te dão uma velocidade de escalada de 25 ft.
+                    </p>
+                    <p> <strong><span class="text-purple">Anfíbio.</span></strong> Você respira em ambientes com água e
+                        ar</p>
+                    <p> <strong><span class="text-purple">Imunidade à veneno.</span></strong> Você é imune à dano de
+                        veneno e a condição de envenenamento.
+                    </p>
+                    <p> <strong><span class="text-purple">Imunidade à veneno.</span></strong> Você é imune à dano de
+                        veneno e a condição de envenenamento.
+                    </p>
+                    <p> <strong><span class="text-purple">Corte Aquático.</span></strong> Como uma ação bônus, com
+                        qualquer arma cortante você consegue imbuir seus ataques com água causando 1d4 adicional de dano
+                        caso corpo a corpo. E é possível lançar a rajada d'água causando apenas 1d4 de dano.
+                    </p>
+                    <p> <strong><span class="text-purple">Linguagens.</span></strong> Você consegue falar, ler e
+                        escrever Comum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="race2" id="mythlings">
+            <h1><span>💧🌳🐸</span> Mythlings</h1>
+            <div class="raceDescription">
+                <div class="leftSide">
+                    <div class="imgContainer" style="text-align: center;">
+                        <img src="img/axolotl.png" style="height: 100%;" alt="axolotl">
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <h2>Mythlings <span class="text-lightBlue">Traits</span></h2>
+                    <p>Seu personagem Mythling vai compartilhar alguns traços comuns e atributos com outros Mythlings.
+                    </p>
+                    <br>
+                    <p> <strong><span class="text-purple">Aumento no valor de Habilidade.</span></strong> Seu valor de
+                        Carisma aumenta em 2 e sua Constituição em 1.</p>
+                    <p> <strong><span class="text-purple">Tamanho.</span></strong> Mythlings estão entre 2 e 4 pés de
+                        altura e pesa 18kg</p>
+                    <p> <strong><span class="text-purple">Deslocamento.</span></strong> Seu deslocamento é de 25 ft em
+                        terra e água.
+                    </p>
+                    <p> <strong><span class="text-purple">Anfíbio.</span></strong> Você respira em ambientes com água e
+                        ar</p>
+                    <p> <strong><span class="text-purple">Regeneração Natural.</span></strong> Uma vez por dia você pode
+                        recuperar 1d6 de vida enquanto se concentra por 1 minuto.</p>
+                    <p> <strong><span class="text-purple">Resistência à veneno.</span></strong> Você tem
+                        resistência contra dano venenoso e tem vantagem em testes contra envenenamento.
+                    </p>
+                    <p> <strong><span class="text-purple">Linguagens.</span></strong> Você consegue falar, ler e
+                        escrever Comum.</p>
+                    <p> <strong><span class="text-purple">Bioluminescência.</span></strong> Seu corpo brilha ao seu
+                        desejo. Como uma ação bônus, seu corpo pode transmitir luz em até 20 pés. Esse efeito dura atpe
+                        você terminá-lo, como uma ação bônus, ou estar incapacitado.</p>
+                    <p> <strong><span class="text-purple">Camuflagem nas Profundezas.</span></strong> Você tem vantagem
+                        em ações de furtividade enquanto debaixo d'água.</p>
+                </div>
+            </div>
+        </div>
+        <div class="race" id="ferret">
+            <h1><span>🦦</span> Doninha</h1>
+            <div class="raceDescription">
+                <div class="leftSide">
+                    <div class="imgContainer" style="text-align: center;">
+                        <img src="img/furo.png" style="height: 100%;" alt="furao">
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <h2>Doninha <span class="text-lightBlue">Traits</span></h2>
+                    <p>Seu personagem doninha vai compartilhar alguns traços comuns e atributos com outras doninhas.
+                    </p>
+                    <br>
+                    <p> <strong><span class="text-purple">Aumento no valor de Habilidade.</span></strong> Seu valor de
+                        Destreza e seu Carisma em 1.</p>
+                    <p> <strong><span class="text-purple">Tamanho.</span></strong> Doninhas estão entre 2 e 4 pés de
+                        altura e pesa 18kg</p>
+                    <p> <strong><span class="text-purple">Deslocamento.</span></strong> Seu deslocamento é de 35 ft.
+                    </p>
+                    <p> <strong><span class="text-purple">Visão no escuro.</span></strong> Você consegue ver no escuro
+                        em até 60 ft, como se estivesse em luz clara, e após isso escuridão. Você não pode dicernir cor
+                        na escuridão, apenas tons de cinza.</p>
+                    <p> <strong><span class="text-purple">Esgueirar-se.</span></strong> Você consegue se espremer em
+                        pequenos
+                        espaços que outros nem poderiam sonhar. Você cabe em qualquer buraco que é pelo menos 15 cm de
+                        diâmetro.</p>
+                    <p> <strong><span class="text-purple">Resistência à veneno.</span></strong> Você tem
+                        resistência contra dano venenoso e tem vantagem em testes contra envenenamento.
+                    </p>
+                    <p> <strong><span class="text-purple">Linguagens.</span></strong> Você consegue falar, ler e
+                        escrever Comum.</p>
+                    <p> <strong><span class="text-purple">Bioluminescência.</span></strong> Seu corpo brilha ao seu
+                        desejo. Como uma ação bônus, seu corpo pode transmitir luz em até 20 pés. Esse efeito dura atpe
+                        você terminá-lo, como uma ação bônus, ou estar incapacitado.</p>
+                    <p> <strong><span class="text-purple">Camuflagem nas Profundezas.</span></strong> Você tem vantagem
+                        em ações de furtividade enquanto debaixo d'água.</p>
+                </div>
+            </div>
+        </div>
+        <div class="race2" id="haregon">
+            <h1><span>🐇</span> Haregon</h1>
+            <div class="raceDescription">
+                <div class="leftSide">
+                    <div class="imgContainer" style="text-align: center;">
+                        <img src="img/rabbitBard.png" style="height: 100%;" alt="cueio">
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <h2>Haregon <span class="text-lightBlue">Traits</span></h2>
+                    <p>Seu personagem coelho vai compartilhar alguns traços comuns e atributos com outros coelhos.
+                    </p>
+                    <br>
+                    <p> <strong><span class="text-purple">Aumento no valor de Habilidade.</span></strong> Seu valor de
+                        Carisma aumenta em 2 e sua Constituição em 1.</p>
+                    <p> <strong><span class="text-purple">Tamanho.</span></strong> Haregons estão entre 2 e 4 pés de
+                        altura e pesa 18kg</p>
+                    <p> <strong><span class="text-purple">Deslocamento.</span></strong> Seu deslocamento é de 30 ft.
+                    </p>
+                    <p> <strong><span class="text-purple">Gatilho de lebre.</span></strong> Você tem vantagem em testes
+                        de iniciativa</p>
+                    <p> <strong><span class="text-purple">Sentidos Leporinos.</span></strong> Você tem proficiência em
+                        Percepção.</p>
+                    <p> <strong><span class="text-purple">Pés da Sorte.</span></strong> Quando você falha em um teste de
+                        resistência de Destreza, você pode usar sua reação para rolar 1d4 e adicioná-lo ao teste de
+                        resistência, potencialmente transformando a falha em um sucesso. Você não pode usar esta reação
+                        se estiver caído ou se sua velocidade for 0.
+                    </p>
+                    <p> <strong><span class="text-purple">Salto do Coelho.</span></strong> Como uma ação bônus, você
+                        pode pular um número de metros igual a cinco vezes seu bônus de proficiência, sem provocar
+                        ataques de oportunidade. Você pode usar esta característica somente se seu deslocamento for
+                        maior que 0. Você pode usá-la um número de vezes igual ao seu bônus de proficiência e recupera
+                        todos os usos gastos quando terminar um descanso longo.</p>
+                    <p> <strong><span class="text-purple">Linguagens.</span></strong> Você consegue falar, ler e
+                        escrever Comum.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="copyright">
+                <p>&copy; Edvaldo Henrique. Nem todos os direitos reservados.</p>
+            </div>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="js/racesJs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #232424;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 8vh;
+}
+
+h2 {
+  font-size: 6vh;
+}
+
+h3 {
+  font-size: 5vh;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.spaceDiv {
+  margin-top: 15vh;
+}
+
+.race {
+  background: #fff;
+}
+
+.race2 {
+  background: #e9e9e9;
+}
+
+.race,
+.race2 {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10vh;
+}
+.race h1,
+.race2 h1 {
+  font-size: 8vh;
+  color: #ce0be7;
+  margin: 5vh 0 10vh 0;
+}
+.race h1 span,
+.race2 h1 span {
+  color: #232424;
+}
+.race .raceDescription,
+.race2 .raceDescription {
+  display: flex;
+}
+.race .raceDescription .leftSide,
+.race2 .raceDescription .leftSide {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.race .raceDescription .leftSide .imgContainer,
+.race2 .raceDescription .leftSide .imgContainer {
+  height: 90vh;
+  width: 90vh;
+  margin: 0;
+}
+.race .raceDescription .leftSide .imgContainer img,
+.race2 .raceDescription .leftSide .imgContainer img {
+  width: -moz-max-content;
+  width: max-content;
+  height: 100%;
+}
+.race .raceDescription .rightSide,
+.race2 .raceDescription .rightSide {
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: 10vh;
+}
+
+@media only screen and (max-width: 930px) {
+  p {
+    font-size: 2rem;
+  }
+  .race,
+  .race2 {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 10vw;
+  }
+  .race h1,
+  .race2 h1 {
+    font-size: 8vh;
+    color: #ce0be7;
+    margin: 5vw 0 10vw 0;
+  }
+  .race h1 span,
+  .race2 h1 span {
+    color: #232424;
+  }
+  .race .raceDescription,
+  .race2 .raceDescription {
+    display: block;
+  }
+  .race .raceDescription .leftSide,
+  .race2 .raceDescription .leftSide {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .race .raceDescription .leftSide .imgContainer,
+  .race2 .raceDescription .leftSide .imgContainer {
+    margin: 0 !important;
+    height: 80vw;
+    width: 80vw;
+  }
+  .race .raceDescription .leftSide .imgContainer img,
+  .race2 .raceDescription .leftSide .imgContainer img {
+    width: -moz-max-content;
+    width: max-content;
+    height: 100%;
+  }
+  .race .raceDescription .rightSide,
+  .race2 .raceDescription .rightSide {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 0;
+  }
+  .race .spaceDiv,
+  .race2 .spaceDiv {
+    display: none;
+  }
+}/*# sourceMappingURL=racesStyle.css.map */

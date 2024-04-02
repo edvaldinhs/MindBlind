@@ -1,0 +1,120 @@
+$roxo: #ce0be7;
+$ciano: #1ba2fa;
+$preto: #232424;
+$branco: #fff;
+$branco-gelo: #e9e9e9;
+
+$h1size: 8vh;
+$h2size: 6vh;
+$h3size: 5vh;
+$psize: 1.2rem;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $preto;
+    font-family: "Poppins", sans-serif;
+}
+h1 {
+    font-size: $h1size;
+}
+h2 {
+    font-size: $h2size;
+}
+h3 {
+    font-size: $h3size;
+}
+p {
+    font-size: $psize;
+}
+.spaceDiv {
+    margin-top: 15vh;
+}
+
+.race {
+    background: $branco;
+}
+.race2 {
+    background: $branco-gelo;
+}
+.race,
+.race2 {
+    width: 100%;
+    height: fit-content;
+    padding: 10vh;
+    h1 {
+        font-size: $h1size;
+        color: $roxo;
+        span {
+            color: $preto;
+        }
+        margin: 5vh 0 10vh 0;
+    }
+    .raceDescription {
+        display: flex;
+        .leftSide {
+            width: fit-content;
+            .imgContainer {
+                height: 90vh;
+                width: 90vh;
+                margin: 0;
+                img {
+                    width: max-content;
+                    height: 100%;
+                }
+            }
+        }
+        .rightSide {
+            width: max-content;
+            margin-left: 10vh;
+        }
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    $h1size: 8vh;
+    $h2size: 6vh;
+    $psize: 2rem;
+
+    p {
+        font-size: $psize;
+    }
+
+    .race,
+    .race2 {
+        width: 100%;
+        height: fit-content;
+        padding: 10vw;
+        h1 {
+            font-size: $h1size;
+            color: $roxo;
+            span {
+                color: $preto;
+            }
+            margin: 5vw 0 10vw 0;
+        }
+        .raceDescription {
+            display: block;
+            .leftSide {
+                width: fit-content;
+                .imgContainer {
+                    margin: 0 !important;
+                    height: calc(100vw - 20vw);
+                    width: calc(100vw - 20vw);
+                    img {
+                        width: max-content;
+                        height: 100%;
+                    }
+                }
+            }
+            .rightSide {
+                width: fit-content;
+                margin-left: 0;
+            }
+        }
+        .spaceDiv {
+            display: none;
+        }
+    }
+}
