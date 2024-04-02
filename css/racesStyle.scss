@@ -75,7 +75,7 @@ p {
 @media only screen and (max-width: 930px) {
     $h1size: 8vh;
     $h2size: 6vh;
-    $psize: 2rem;
+    $psize: 1.5rem;
 
     p {
         font-size: $psize;
@@ -100,11 +100,11 @@ p {
                 width: fit-content;
                 .imgContainer {
                     margin: 0 !important;
-                    height: calc(100vw - 20vw);
+                    height: fit-content;
                     width: calc(100vw - 20vw);
                     img {
-                        width: max-content;
-                        height: 100%;
+                        width: 100%;
+                        height: max-content;
                     }
                 }
             }

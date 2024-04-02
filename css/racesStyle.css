@@ -81,7 +81,7 @@ p {
 
 @media only screen and (max-width: 930px) {
   p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .race,
   .race2 {
@@ -112,14 +112,15 @@ p {
   .race .raceDescription .leftSide .imgContainer,
   .race2 .raceDescription .leftSide .imgContainer {
     margin: 0 !important;
-    height: 80vw;
+    height: -moz-fit-content;
+    height: fit-content;
     width: 80vw;
   }
   .race .raceDescription .leftSide .imgContainer img,
   .race2 .raceDescription .leftSide .imgContainer img {
-    width: -moz-max-content;
-    width: max-content;
-    height: 100%;
+    width: 100%;
+    height: -moz-max-content;
+    height: max-content;
   }
   .race .raceDescription .rightSide,
   .race2 .raceDescription .rightSide {
